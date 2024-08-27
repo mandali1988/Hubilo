@@ -76,7 +76,8 @@ const Sidebar = (props) => {
                 </div>
                 <div className='sidebaraction'>
                     <div>
-                        <button type='button' className='Addbutton' disabled={!!checkedItems}>Add</button> 
+                        {/* <button type='button' className='Addbutton' disabled={!!checkedItems}>Add</button>  */}
+                        <button type='button' className='Addbutton'>Add</button> 
                         <button type='button' className='cancelbtn'>Cancel</button>
                     </div>
                     <a href='#'>Create a speaker</a>
