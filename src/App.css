@@ -1,0 +1,159 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+ 
+  .App {
+    overflow: hidden;
+}
+.pointer{
+  cursor: pointer;
+}
+.content {
+  font-size: 14px;
+  font-weight: 600;
+  color: #575757;
+  margin: 28px 0px 0px 28px;
+}
+.ShowSidebarbutton {
+  position: absolute;
+  margin: 80px 0 0 20px;
+  cursor: pointer;
+}
+.sidebarsearchbar {
+  padding: 20px;
+  position: relative;
+}
+.AddSpeakerbutton {
+  background: #E4875D;
+  cursor: pointer;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding: 13px 20px;
+  border-radius: 10px;
+}
+.sidebarsearchbar > input {
+  padding: 10px 10px 10px 38px;
+  border: 1px solid #E9E9E9;
+  border-radius: 12px;
+  width: 90%;
+  position: relative;
+}
+.sidebarsearchbar > img {
+  position: absolute;
+  left: 28px;
+  z-index: 9;
+  top: 28px;
+}
+.sidebar.open { 
+  right: 0%;
+}
+.sidebar {
+  max-width: 600px;
+  position: fixed; 
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 12px 0px 0px 12px;
+  overflow: hidden;
+  border-left: 1px solid #F6F8F8;
+  right: -100%;
+}
+.sidebarheader {
+  background: #F6F8F8;
+  min-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #202020;
+  font-weight: 500;
+  padding: 0 20px;
+}
+ .sidebaruserlist ul{
+  list-style: none;
+  padding: 0;
+  margin: 0 20px;
+ }
+ .sidebaruserlist {
+  height: calc(100% - 100px);
+  overflow: auto;
+}
+.sidebarmiddle{height: calc(100% - 160px)}
+.sidebaraction {
+  border-top: 1px solid #DBDBDB;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Addbutton {
+  background: #E4875D;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  width: 62px;
+  height: 42px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.Addbutton:disabled {
+  background: #E9E9E9; 
+  color: #8F8F8F; 
+}
+.cancelbtn {
+  background: #FCF3EF;
+  border: 0;
+  font-size: 14px;
+  color: #E4875D;
+  width: 80px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sidebaraction a{font-size: 14px; text-decoration: none; color: #E4875D;font-weight: 600;}
+
+ .Userblock {
+  display: flex; 
+  position: relative;
+  align-items: flex-start;
+  padding: 22px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #E9E9E9;
+}
+.Userblocktext {
+  margin-left: 20px;
+}
+.username {
+  font-size: 16px;
+  font-weight: 500;
+  color: #373F66;
+}
+.userdesi {
+  font-size: 14px;
+  line-height: 21px;
+  color: #717693;
+  margin: 8px 0px;
+}
+.userdesi > .dividr {
+  color: #E9E9E9;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.Editusr{
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  color: #E4875D;
+  cursor: pointer;
+}
+.Userblock > input {
+  position: absolute;
+  right: 19px;
+}
